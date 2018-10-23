@@ -1,0 +1,5 @@
+1. npm install -g @angular/cli
+2. ng new Eshop-app
+3. cd Eshop-app
+4. ng serve
+5. npm install --save bootstrap

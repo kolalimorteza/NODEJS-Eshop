@@ -1,0 +1,54 @@
+.jcarousel-skin-previews {
+	position: relative;
+}
+.jcarousel-skin-previews ul {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.jcarousel-skin-previews li {
+	float: none !important;
+}
+.jcarousel-skin-previews .jcarousel-clip {
+	overflow: hidden;
+}
+.jcarousel-skin-previews .jcarousel-list.jcarousel-list-vertical {
+	overflow:visible !important;
+}
+.jcarousel-skin-previews .jcarousel-clip-vertical {
+	width: 100%;
+	margin-top:-15px;
+	height: 354px;
+}
+.jcarousel-skin-previews .jcarousel-prev, .jcarousel-skin-previews .jcarousel-next {
+	position: absolute;
+	top: -28px;
+	right:0;
+	text-decoration:none;
+	padding-bottom:10px;
+	cursor: pointer;
+}
+.jcarousel-skin-previews .jcarousel-prev {
+	right: 20px;
+}
+.jcarousel-skin-previews .jcarousel-prev:before, .jcarousel-skin-previews .jcarousel-next:before {
+	font-family:icomoon;
+	font-size:20px;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.jcarousel-skin-previews .jcarousel-prev:before {
+	content:'\e07a'
+}
+.jcarousel-skin-previews .jcarousel-next:before {
+	content:'\e079'
+}
+.jcarousel-skin-previews .jcarousel-prev:hover, .jcarousel-skin-previews .jcarousel-next:hover {
+	color: #EE3B27;
+}
+.jcarousel-skin-previews .jcarousel-prev-disabled, .jcarousel-skin-previews .jcarousel-next-disabled {
+	color: #2B2B2B !important;
+	cursor: default;
+}

@@ -1,0 +1,125 @@
+/*********************************************
+	-	SETTINGS FOR BANNER CONTAINERS	-
+**********************************************/
+
+.tp-banner-container {
+	width:100%;
+	position:relative;
+	padding:0;
+}
+.tp-banner {
+	width:100%;
+	position:relative;
+}
+.tp-banner-fullscreen-container {
+	width:100%;
+	position:relative;
+	padding:0;
+}
+/*.tp-leftarrow.default, .tp-rightarrow.default {
+	display:block;
+	cursor:pointer;
+	width:52px;
+	height: 52px;
+	background:#2991d6;
+	color:#fff;
+	text-align:center;
+	border-radius:3px;
+}
+.tp-leftarrow.default:before, .tp-rightarrow.default:before {
+	font-family:icon_cr;
+	font-size:26px;
+	line-height:52px;
+	content:'\e802'
+}
+.tp-rightarrow.default:before {
+	content:'\e805'
+}
+.tp-leftarrow:hover, .tp-rightarrow:hover {
+	background-position:bottom left;
+}
+*/
+.text1, .text2 {
+	background: #fff;
+	min-width: 200px;
+	min-height:110px;
+	display:block;
+	padding:15px;
+	text-align:right; 
+	font-family: "Maven Pro", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	line-height:1em;
+	color:#82817d;
+	text-transform:uppercase;
+}
+.text2 { text-align:left;}
+/*.tparrows, .tparrows.hidearrows {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+.tparrows.showarrows {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	-webkit-transition: opacity 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out;
+	-o-transition: opacity 0.2s ease-out;
+	-ms-transition: opacity 0.2s ease-out;
+	-webkit-transform: translateZ(5000px);
+	-webkit-transform-style: flat;
+	-webkit-backface-visibility: hidden;
+	z-index:600;
+	position: relative;
+}
+*/.tp-leftarrow.default {
+	z-index:100;
+	cursor:pointer;
+	position:relative;
+	background: none;
+	width:15%;
+	height:100%;
+	left:0 !important;
+}
+.tp-rightarrow.default {
+	z-index:100;
+	cursor:pointer;
+	position:relative;
+	background: none;
+	width:15%;
+	height:100%;
+	right:0 !important;
+}
+.tp-leftarrow.default:before, .tp-rightarrow.default:before {
+	display: none
+}
+.tp-rightarrow.default:hover {
+	cursor: pointer;
+	cursor: url(../images/cursor-arrow-right-dark.png) 40 75,url(../images/cursor-arrow-right-dark.html),pointer;
+}
+.tp-leftarrow.default:hover {
+	cursor: pointer;
+	cursor: url(../images/cursor-arrow-left-dark.png) 40 75,url(../images/cursor-arrow-left-dark.html),pointer;
+}
+.scroll-down {
+	position:absolute;
+	display:block;
+	margin-bottom:0;
+	z-index:100000;
+	color:#fff !important;
+	left:39%;
+	bottom:3%;
+	width:22%;
+	text-align:center;
+	text-shadow:1px 1px rgba(0, 0, 0, .5);
+	font:1.5em/1em Mavenpro-medium, Arial, Helvetica, sans-serif
+}
+.scroll-down:hover {
+	text-decoration:none
+}
+.scroll-down .icon {
+	display:block;
+	font-size:2.6em
+}

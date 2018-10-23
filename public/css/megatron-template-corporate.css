@@ -1,0 +1,45 @@
+.touch .videoWrapperFull {
+	background:url(../images/corporate/full-video.jpg)
+}
+.social-widget.dark, footer {
+	background:#272727
+}
+.find-us .divider:before, .footer-navbar, .social-widget.dark {
+	border-color:#313131
+}
+.social-widget.dark, .social-widget.dark h3, footer {
+	color:#fff
+}
+footer .copyright-text {
+	color:#656565
+}
+.feature-item {
+	position:relative;
+	font-size:1.2em;
+	line-height:1.1em;
+	margin:10px 0 5px;
+	text-transform:uppercase;
+	color:#000;
+	font-family:Mavenpro-bold, Arial, Helvetica, sans-serif;
+	width:100%;
+	display:table
+}
+.feature-item .text {
+	display:table-cell;
+	vertical-align:middle;
+	padding:0 0 0 64px;
+	height:45px
+}
+.feature-item .feature-icon {
+	position:absolute;
+	top:0;
+	left:0
+}
+@media (max-width:767px) {
+.responsive .collapsed-block {
+border-bottom:1px solid #313131
+}
+.responsive .collapsed-block .expander, .responsive .footer-navbar.dark .icon, .responsive .footer-navbar.dark a, .responsive .footer-navbar.dark h3 {
+color:#fff
+}
+}

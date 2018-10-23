@@ -1,0 +1,121 @@
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.2
+*/
+.owl-slider .item {
+	position:relative
+}
+.owl-theme .owl-controls {
+	position:absolute;
+	margin:0;
+	right:5px;
+	top:-41px;
+	padding-bottom:20px
+}
+.main-slider .owl-slider-outer .owl-controls {
+	top:50%!important;
+	left:1%!important;
+	right:auto;
+	width:98%
+}
+.owl-slider-outer.slider-listing .owl-controls {
+	left:5px;
+	bottom:5%;
+	top:auto;
+	padding-bottom:0
+}
+/* Styling Next and Prev buttons */
+.owl-theme .owl-controls .owl-buttons div {
+	display:inline-block;
+	zoom:1;
+*display:inline
+}
+.owl-slider-outer .owl-slider-next:hover, .owl-slider-outer .owl-slider-prev:hover, .owl-theme .owl-controls .owl-buttons div:hover {
+	color:#ee3b27
+}
+.owl-theme .owl-controls .owl-buttons div.disabled {
+	opacity:.5!important;
+	filter:alpha(opacity=50);
+	cursor:default;
+	color:#2b2b2b!important
+}
+.owl-theme .owl-controls .owl-buttons div:before {
+	font-family:icomoon;
+	font-size:26px!important;
+	display:inline-block;
+	content:'\e078'
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next:before {
+	content:'\e07b'
+}
+.main-slider .owl-slider-outer .owl-controls .owl-buttons div:before {
+	font-size:50px!important;
+	margin-top:-10px
+}
+.main-slider .owl-slider-outer .owl-controls .owl-buttons div.owl-next {
+	float:right
+}
+.main-slider .owl-theme .owl-controls .owl-buttons div.disabled {
+	opacity:1!important;
+	filter:alpha(opacity=100);
+	cursor: pointer;
+	color:#2b2b2b!important
+}
+.main-slider .owl-slider-outer .owl-slider-next:hover, .main-slider .owl-slider-outer .owl-slider-prev:hover, .main-slider .owl-theme .owl-controls .owl-buttons div:hover {
+	color:#ee3b27 !important
+}
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+	filter:Alpha(Opacity=100);
+	opacity:1;
+	text-decoration:none
+}
+/* Styling Pagination*/
+.owl-theme .owl-controls .owl-page {
+	display:inline-block;
+	zoom:1;
+*display:inline
+}
+.owl-theme .owl-controls .owl-page span {
+	display:block;
+	width:12px;
+	height:12px;
+	margin:5px 7px;
+	filter:Alpha(Opacity=50);
+	opacity:.5;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border-radius:20px;
+	background:#869791
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+	filter:Alpha(Opacity=100);
+	opacity:1
+}
+/* If PaginationNumbers is true */
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+	height:auto;
+	width:auto;
+	color:#FFF;
+	padding:2px 10px;
+	font-size:12px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	border-radius:30px
+}
+/* preloading images */
+.owl-item.loading {
+	min-height:150px;
+	background:url(../images/AjaxLoader.gif) no-repeat center center
+}
+/* unique Next and Prev buttons */
+.owl-theme.product-widgets .owl-controls {
+	position:absolute;
+	margin:0;
+	padding:0 5px 0 0;
+	right:0;
+	top:0;
+	background:#fff
+}
